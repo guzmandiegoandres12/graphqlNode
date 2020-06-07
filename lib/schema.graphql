@@ -1,0 +1,25 @@
+type Query{
+  # retun list of courses
+  getCourses:[Course],
+   # retun list of especific course
+  getCourse (id: ID!):Course
+}
+type Course{
+  _id: ID!,
+  title: String!,
+  theacher: String!,
+  description: String!,
+  topic:String
+}
+
+input courseInput{
+  title: String!,
+  theacher: String,
+  description: String!,
+  topic:String
+}
+
+type Mutation{
+  # creaun curso
+  createCourse(input:courseInput!):Course
+}
