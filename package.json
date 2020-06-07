@@ -1,0 +1,17 @@
+{
+  "name": "grafql",
+  "version": "1.0.0",
+  "description": "proyect to grafql to platzi class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "diego guzman",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^15.0.0"
+  }
+}
